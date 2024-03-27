@@ -18,6 +18,10 @@ return [
         'api_key' => env('SPOONACULAR_API_KEY'),
     ],
 
+    'humor' => [
+        'api_key' => env('HUMOR_API_KEY'),
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
